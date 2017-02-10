@@ -64,6 +64,7 @@ public class LametroBusRoutesService {
 	
 				data.put("id", busId);
 				data.put("route_id", route_id);
+				data.put("stops", getStops(route_id));
 	
 
 		return data.toString();
